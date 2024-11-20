@@ -1,0 +1,75 @@
+/* .main{
+  position: relative; /* Sticks the div to the viewport */
+  top: 0; /* Aligns to the top of the viewport */
+  left: 0; /* Aligns to the left edge of the viewport */
+  width: 100vw; /* Covers the full viewport width */
+  height: 100vh; /* Covers the full viewport height */
+  border: 5px solid red; /* Creates a border around the window */
+  box-sizing: border-box; /* Ensures the border is included in the dimensions */
+  display: flex; /* Enables flexbox for alignment */
+  justify-content: center; /* Centers horizontally */
+  align-items: center; /* Centers vertically */
+}
+
+.search-box{
+  display: flex;
+  border: 5px solid blue;
+  position: relative;
+  top: 1%; /* Aligns to the top of the viewport */
+  left: 0.5%; /* Aligns to the left edge of the viewport */
+  width: 98%; /* Covers the full viewport width */
+  height: 10%; 
+  align-items: center;
+  justify-content: center;
+}
+
+.movie-box{
+  border: 5px solid green;
+  display: flex;
+  position: relative;
+  top: 13%; /* Aligns to the top of the viewport */
+  left: 0.5%; /* Aligns to the left edge of the viewport */
+  width: 98%; /* Covers the full viewport width */
+  height: 80%; 
+  flex-wrap: wrap;
+}
+
+.search{
+  height: 20px;
+  width:  150px;
+}
+
+.card-component{
+  border: 5px solid yellowgreen;
+  display: flex;
+  position: inherit;
+  justify-content: space-between;
+  height: 100%;
+  width:  90%;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  flex-direction: column; /* Ensures items stack vertically */
+  align-items: center; /* Centers content horizontally */
+  
+}
+
+.card-component img {
+  width: 100%; /* Adjust width as needed */
+  height: auto; /* Maintain aspect ratio */
+} 
+.movie-title {
+  margin-top: 10px;
+  font-size: 1rem; /* Adjust font size */
+  text-align: center;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-y: auto; /* Enable vertical scrolling */
+}
+
+html, body {
+  height: 100%; /* Ensure body height spans the viewport */
+} */

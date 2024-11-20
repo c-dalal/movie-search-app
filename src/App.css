@@ -1,0 +1,98 @@
+.main {
+  width: 100vw;
+  height: auto; /* Allows the height to adjust based on content */
+  /* border: 5px solid red; */
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column; /* Stack content vertically */
+  align-items: center;
+}
+
+.search-box {
+  display: flex;
+  /* border: 5px solid blue; */
+  width: 98%;
+  height: 10%;
+  margin: 10px 0; /* Add space around the search box */
+  align-items: center;
+  justify-content: center;
+}
+.search{
+  margin-left: 5px;
+}
+
+.movie-box {
+  /* border: 5px solid green; */
+  display: flex;
+  flex-wrap: wrap; /* Allows items to wrap to the next row */
+  justify-content: space-evenly; /* Even spacing between cards */
+  align-items: flex-start; /* Align cards to the top */
+  gap: 20px; /* Consistent spacing between cards */
+  padding: 20px; /* Space inside the container */
+  width: 100%;
+  height: auto;
+  overflow-y: auto; /* Enables scrolling if content overflows */
+  box-sizing: border-box;
+}
+
+.card-component {
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column; /* Ensure items stack vertically */
+  align-items: center; /* Centers content horizontally */
+  height: auto;
+  width: 240px; /* Set fixed width for uniformity */
+  margin: 10px;
+}
+
+.card-component img {
+  width: 100%; /* Adjust width to fit card */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.movie-title {
+  margin-top: 10px;
+  font-size: 1rem;
+  text-align: center;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-y: auto; /* Ensure page can scroll vertically */
+}
+
+html, body {
+  height: 100%; /* Full height for scrolling */
+}
+
+.movie-release-year{
+  margin-top: 10px;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.movie-type{
+  margin-top: 10px;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.movie-details {
+  display: flex; /* Enables Flexbox */
+  flex-direction: column; /* Stacks items vertically */
+  align-items: center; /* Centers items horizontally */
+  margin-top: 20px; /* Adds space at the top */
+  text-align: center; /* Ensures text is aligned centrally */
+  width: 100%; /* Ensures full width */
+}
+
+.movie-details h1 {
+  margin-bottom: 10px; /* Adds space between heading and details */
+  font-size: 2rem; /* Adjust font size for the heading */
+}
+
+.movie-details p {
+  font-size: 1.2rem; /* Adjust font size for the paragraph */
+}
+
